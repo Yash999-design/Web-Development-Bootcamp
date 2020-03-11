@@ -1,0 +1,31 @@
+body {
+    background-color: #f3d1f4;
+}
+
+hr {
+    background-color: #f3d1f4;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    color: red;
+}
+
+img {
+    border-radius: 15%;
+}
+
+h1 {
+    color: #66BFBF;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+h3 {
+    color: #66BFBF;
+    font-style: oblique;
+}
+
+a {
+    text-decoration: inherit;
+}
