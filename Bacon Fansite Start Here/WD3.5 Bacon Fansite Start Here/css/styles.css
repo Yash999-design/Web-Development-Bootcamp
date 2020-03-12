@@ -1,7 +1,42 @@
+/*!**********!*  Tag Selectors  !**********!*/
 h1 {
-    color: red;
+  color: red;
 }
 
-img {
+h1:hover {
+    background-color: hotpink;
+}
+
+img:hover {
+    background-color: goldenrod;
+}
+
+a:link {
     background-color: red;
+    color: lavender;
+} 
+
+/* img {
+    color: red;
+} */
+
+
+
+
+/*****************  Class Selectors  **********************/
+.bacon {
+  background-color: red;
+}
+
+.Simon-Sinek {
+  border-radius: 10%;
+}
+
+
+
+
+
+/* *************  ID Selectors  *************** */
+#heading {
+    color: indianred;
 }
