@@ -1,10 +1,99 @@
 body {
-    background-color: #beebe9;
+  margin: 0px;
+  background-color: #beebe9;
 }
 
 h2 {
-    color: navy;
-    font-weight: inherit;
-    font-style: oblique;
+  color: navy;
+  font-weight: inherit;
+  font-style: oblique;
 }
 
+.header-creation {
+  background-color: #46b3e6;
+  height: 80px;
+  margin: 0px;
+  width: 100%;
+}
+
+.target-fb {
+  display: inline;
+  color: white;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  position: absolute;
+  top: 20px;
+  left: 55px;
+}
+
+.hitting-login {
+  display: inline;
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.email-position {
+  color: white;
+  display: inline;
+  margin: 10px 0px 0px 0px;
+  position: relative;
+  right: 98px;
+}
+
+.text-rotate {
+  display: inline;
+  margin: 2px;
+  position: absolute;
+  right: 205px;
+  top: 20px;
+}
+
+.password-position {
+  bottom: 23px;
+  color: white;
+  display: inline;
+  /* left: 200px; */
+  left: 77px;
+  position: relative;
+}
+
+.password-box {
+  bottom: 1.5px;
+  display: inline;
+  position: relative;
+  right: 30px;
+}
+
+.login-button {
+  background-color: darkblue;
+  border: none;
+  bottom: 26.5px;
+  color: white;
+  display: inline;
+  left: 244px;
+  padding: 3px;
+  position: relative;
+}
+
+.login-button:hover {
+  color: gold;
+  display: inline;
+  position: relative;
+}
+
+.create-an-account {
+  position: relative;
+  right: 7rem;
+  bottom: 1rem;
+}
+
+.its-easy {
+    color: black;
+    display: inline;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 16.5rem;
+    top: 115px;
+}

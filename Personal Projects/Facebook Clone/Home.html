@@ -4,33 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook</title>
+    <title>Facebook - log in or sign up </title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="Favicon.ico" type="image/x-icon" title="instagram.com">
+    <link rel="shortcut icon" href="Favicon.ico" type="image/x-icon" title="Facebook.com">
 </head>
 
 <body>
-    <center style="font-style: italic;">
+    <!-- <center style="font-style: italic;">
         Facebook
-    </center>
+    </center> -->
+
+    <h1 class="header-creation" title="go to facebook home page">
+        <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none;"><span
+                class="target-fb">facebook</span></a>
+    </h1>
     <table cellpadding="20px">
         <tr>
             <td style="text-align: left; width: 10%;font-size: large; color: green;">SignIn</td>
-            <td style="text-align: right; width: 10%; color: red; font-size: large;">SignUp</td>
+            <td style="text-align: right; width: 10%; color: red; font-size: 2.5rem;"> <span class="create-an-account"> Create an account </span>
+                <p class="its-easy">It's quick and easy.</p>
+            </td>
         </tr>
         <tr>
             <td>
-                <table>
+                <table class="hitting-login">
                     <tr>
-                        <td style="font-style: italic;">Email/Mobile : </td>
-                        <td><input type="text" required></td>
+                        <td style="font-style: italic;" class="email-position">Email or Phone </td>
+                        <td><input type="text" required class="text-rotate"></td>
                     </tr>
                     <tr>
-                        <td style="font-style: italic;">Password : </td>
-                        <td><input type="password" required></td>
+                        <td style="font-style: italic;" class="password-position">Password </td>
+                        <td><input type="password" required class="password-box"></td>
                     </tr>
                     <tr>
-                        <td><input type="button" value="SignIn"></td>
+                        <td><input class="login-button" type="button" value="Log In"></td>
                     </tr>
                 </table>
             </td>
@@ -43,7 +50,8 @@
                     </tr>
                     <tr>
                         <td style="font-style: italic;">DOB : </td>
-                        <td><input type="date" min="1901-01-01" max="2099-12-31" value="1901-01-01" required></td>
+                        <td><input type="date" min="1901-01-01" max="2099-12-31" value="1901-01-01" required>
+                        </td>
                     </tr>
                     <tr>
                         <td style="font-style: italic;">Email : </td>

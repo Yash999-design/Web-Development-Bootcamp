@@ -1,0 +1,95 @@
+/*!  This is absolute positioning  */
+
+body {
+    margin: 0px;
+}
+
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.red:hover {
+  background-color: green;
+}
+
+.blue {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.blue:hover {
+  background-color: gold;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: relative;
+  bottom: 300px;
+}
+
+.yellow:hover {
+  background-color: pink;
+}
+
+/*! This is  relative position */
+/* 
+body {
+  margin: 0px;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  left: 100px;
+}
+
+.blue:hover {
+    background-color: gold;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.red:hover {
+    background-color: green;
+}
+
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    bottom: 200px;
+}
+
+.yellow:hover {
+    background-color: pink;
+} 
+*/
